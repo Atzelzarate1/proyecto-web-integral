@@ -8,5 +8,13 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+      
+  constructor(){
+    console.log('funciones de prueba');
+    console.warn("advertencia")
+    console.log("prueba de conflictos");
+    
+    
+  }
   title = 'practica_4';
 }
