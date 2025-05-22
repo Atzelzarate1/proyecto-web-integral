@@ -17,4 +17,10 @@ export class AppComponent {
     
   }
   title = 'practica_4';
+  constructor(){
+    console.log("nuevas funciones");
+    console.warn("cuidado")
+    console.log("prueba de conflictos");
+    
+  }
 }
